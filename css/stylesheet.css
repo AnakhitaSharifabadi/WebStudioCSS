@@ -16,23 +16,27 @@
 .header-logotype {
   color: #2196f3;
   font-family: Raleway;
-  font-size: 26px;
+  
   font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  
   letter-spacing: 0.78px;
   color: #000;
-  font-family: Raleway;
+  
   font-size: 26px;
   font-style: normal;
+  justify-content: space-between;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
   text-decoration: none;
+
 }
 .header-link {
+  display: inline-block;
+  display: flex;
   color: #212121;
   font-family: Roboto;
+  display: flex;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -42,6 +46,7 @@
 .header-conaction {
   color: #757575;
   font-family: Roboto;
+  justify-content: space-around;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
